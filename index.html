@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link rel="shortcut icon" href="images/me.svg" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,500&family=Mulish:wght@400;700&family=Open+Sans:wght@400;700&display=swap"
       rel="stylesheet"
@@ -19,17 +20,16 @@
   </head>
   <body>
     <section class="page">
-      <header>
-        <img src="images/treine.me.svg" alt="treine.me" />
-
-        <nav>
-          <ul>
-            <li>Home</li>
-            <li>Sobre</li>
-            <li>Treinar</li>
-          </ul>
-        </nav>
-      </header>
+      <nav>
+        <a id="logo" href="#">
+          <img src="images/treine.me.svg" alt="treine.me" />
+        </a>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Sobre</a></li>
+          <li><a href="#">Treinar</a></li>
+        </ul>
+      </nav>
 
       <main>
         <section class="text">
@@ -43,7 +43,7 @@
 
           <button>
             <i class="ph ph-whatsapp-logo"></i>
-            <p>Comece já</p>
+            Comece já
           </button>
         </section>
 
@@ -56,10 +56,17 @@
       </main>
 
       <footer>
-        <p>fale concosco no instagram @treine.me</p>
+        fale concosco no instagram
+        <a href="https://www.instagram.com/treine.me" target="_blank">
+          @treine.me
+        </a>
       </footer>
     </section>
 
-    <img src="images/balls-decoration.svg" alt="Bolinhas coloridas." />
+    <img
+      id="balls"
+      src="images/balls-decoration.svg"
+      alt="Bolinhas coloridas."
+    />
   </body>
 </html>
